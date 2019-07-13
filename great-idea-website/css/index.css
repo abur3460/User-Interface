@@ -52,6 +52,7 @@ table {
     box-sizing: border-box;
 }
 
+
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
@@ -64,3 +65,132 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	margin: 50px;
+	width: 80%;
+}
+.container nav a{
+	width: 9%
+}
+.container nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: grey;
+	padding: 20px;
+	
+}
+.container img {
+	display: inline-block;
+}
+
+
+
+.title1 {
+	display: inline-block;
+	font-size: 125px;
+	text-align: center;
+	width: 500px;
+	height: 500px;
+	margin: 50px;
+	padding: 50px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	
+}
+	
+.main-header img {
+	display: inline-block;
+	height: 500px;
+	width: 500px;
+	margin-left: 200px;
+	margin-top: 75px;
+	
+}
+button {
+	background: white;
+	border: solid black 1px;
+	width: 160px;
+	height: 30px;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	transition-duration: .7s;
+	margin: 
+}
+.button:hover {
+	background-color: lightgrey;
+	
+}
+
+section .main-header {
+	border-bottom: solid black 2px;
+	align-content: center;
+	margin-bottom: 25px;
+	padding-bottom: 45px;
+}
+
+.main-header
+section .main-body {
+	border-bottom: solid black 2px;
+	align-content: center;
+	margin-bottom: 25px;
+	padding-bottom: 45px;
+}
+
+
+
+
+.main-body .features {
+	display: inline-block;
+	width: 49%;
+	height: 20px;
+	padding: 25px;
+}
+
+.main-body .about {
+	display: inline-block;
+	width: 49%;
+	height: 20px;
+	padding: 25px;
+}
+
+.main-body .services {
+	display: inline-block;
+	width: 33%;
+	height: 20px;
+	padding: 25px;
+}
+.main-body .product {
+	display: inline-block;
+	width: 33%;
+	height: 20px;
+	padding: 25px;
+}
+.main-body .vision {
+	display: inline-block;
+	align-content: center;
+	width: 33%;
+	height: 20px;
+	padding: 25px;
+}
+.main-body img {
+	display: inline-block;
+	align-content: center;
+	margin: 20px;
+	width: 95%;
+	height: 150px;
+}
+
+section .contact {
+	display: inline-block;
+	width: 200px;
+	height: 20px;
+	padding: 25px;
+}
+
+div.copyright {
+	text-align: center;
+	width: 100%;
+}
